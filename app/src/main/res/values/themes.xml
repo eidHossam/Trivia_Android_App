@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Trivia" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="primaryBG">@color/primaryGreyBG</item>
+        <item name="android:statusBarColor">@color/blueAccent</item>
+        <item name="android:navigationBarColor">@color/blueAccent</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="colorAccent">@android:color/black</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:background">?attr/primaryBG</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomAlertDialogButton</item>
+    </style>
+
+    <!-- Custom button style -->
+    <style name="CustomAlertDialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/blueAccent</item>
+    </style>
+
+    <style name="Theme.Trivia" parent="Base.Theme.Trivia" />
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="exit_quiz_string">exit the quiz</string>
+</resources>

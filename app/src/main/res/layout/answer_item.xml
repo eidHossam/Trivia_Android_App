@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    app:cardElevation="10dp"
+    >
+    
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/answerTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Test answer"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+</com.google.android.material.card.MaterialCardView>
